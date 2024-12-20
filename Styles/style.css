@@ -1,25 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 #fullPageFlexBox {
-    display: flex;
+  display: flex;
 }
 
 /* CONTAINER DU CONTENU */
 
 #allContentBox {
-    display: flex;
+  display: flex;
 }
 
 /* SIDEBAR PRÉSENTATION */
 
 .sideBarHeader {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100dvh;
+  background-color: #282828;
+}
+
+#boxFullnameAndStatus p:first-child {
+    color: #D4AEFE;
+    font-family: "Mulish", serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#boxFullnameAndStatus p:nth-child(2) {
+    color: #757A7F;
+    font-family: "Space Mono", serif;
+    font-size: 13px;
+}
+
+#boxFullnameAndStatus span {
+    color: #757A7F;
+    font-family: "Space Mono", serif;
+    font-size: 13px;
+}
+
+/* SIDEBAR LIENS */
+
+.leftBoxAnchors ul li {
+    list-style: none;
 }
 
 /* CONTAINER GAUCHE */
@@ -45,4 +73,3 @@
 #boxFullnameAndStatus p:nth-child(2), span {
     color: #757A7F;
 } */
-
