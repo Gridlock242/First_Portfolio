@@ -4,6 +4,24 @@
     margin: 0;
 }
 
+#fullPageFlexBox {
+    display: flex;
+}
+
+/* CONTAINER DU CONTENU */
+
+#allContentBox {
+    display: flex;
+}
+
+/* SIDEBAR PRÉSENTATION */
+
+.sideBarHeader {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
 /* CONTAINER GAUCHE */
 
 /* .leftBox {
