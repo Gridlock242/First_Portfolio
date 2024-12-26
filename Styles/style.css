@@ -7,6 +7,7 @@
 
 #fullPageFlexBox {
   display: flex;
+  background-color: #121212;
 }
 
 /* CONTAINER DU CONTENU */
@@ -22,9 +23,13 @@
   flex-direction: column;
   height: 100%;
   min-height: 100dvh;
+  max-height: 100dvh;
   background-color: #282828;
   justify-content: space-between;
   border-right: #757a7f 2px solid;
+  position: fixed;
+  top: 0;
+  width: 15rem;
 }
 
 #boxFullnameAndStatus {
@@ -82,7 +87,7 @@
 }
 
 .leftBoxAnchors ul li a img {
-  margin-right: 10px;;
+  margin-right: 10px;
 }
 
 /* FOOTER DRAPEAUX */
@@ -95,6 +100,7 @@
 
 .allContentBox {
   margin: 4rem 8rem;
+  padding-left: 14rem;
 }
 
 /* PARAGRAPHE PRÉSENTATION */
@@ -134,7 +140,69 @@
 /* DERNIERS PROJETS */
 
 #projects {
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#projects h2 {
+  display: flex;
+  font-family: "Mulish", serif;
+  color: #d4aefe;
+  font-weight: 800;
+}
+
+#projects ul {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+}
+
+#projects ul li {
+  background-color: #282828;
+  border-radius: 1cap;
+  border: #757a7f 2px solid;
+  margin: 20px 0px;
+  height: 9rem;
+}
+
+.titleAndParagraph h3 {
+  display: flex;
+  font-family: "Mulish", serif;
+  color: #d4aefe;
+  font-weight: 800;
+}
+
+.titleAndParagraph p {
+  font-family: "Space Mono", serif;
+  color: #717171;
+  font-size: 12px;
+}
+
+.boxProject {
+  margin: 10px 0px 10px 10px;
+}
+
+.boxProject a {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.boxProject a p {
+  background-color: #4cc29e;
+  padding: 7px;
+  border-radius: 1cap;
+  border: #757a7f 2px solid;
+  font-family: "Mulish", serif;
+  font-size: 12px;
+  color: white;
+}
+
+/* #projects {
+  padding: 1rem 0rem;
   display: flex;
   flex-direction: column;
 }
@@ -143,7 +211,14 @@
   text-decoration: none;
   list-style: none;
   padding-left: 0;
+}
+
+#projects ul li {
   background-color: #282828;
+  border-radius: 1cap;
+  border: #757a7f 2px solid;
+  margin: 20px 0px;
+  height: 9rem;
 }
 
 #projects h2 {
@@ -151,11 +226,23 @@
   font-family: "Mulish", serif;
   color: #d4aefe;
   font-weight: 800;
-  margin-bottom: 1rem;
+}
+
+#projects a {
+  float: inline-end;
+  text-decoration: none;
+  color: white;
+  background-color: #4cc29e;
+  padding: 7px;
+  border-radius: 1cap;
+  border: #757a7f 2px solid;
+  font-family: "Mulish", serif;
+  font-size: 12px;
+  margin-right: 10px;
 }
 
 .boxProject {
-  margin: 10px 0px;
+  margin: 10px 0px 10px 10px;
 }
 
 .boxProject h3 {
@@ -164,27 +251,8 @@
   font-size: 1rem;
 }
 
-
-/* CONTAINER GAUCHE */
-
-/* .leftBox {
-    background-color: #282828;
-    color: #282828;
-    display: flex;
-    flex-direction: column;
-}
-
-.leftBoxAnchors a {
-    text-decoration: none;
-    flex-direction: column;
-}
-
-#boxFullnameAndStatus p:first-child {
-    color: #d4aefe;
-    font-size: 20px;
-    font-family: "Mulish", serif;
-}
-
-#boxFullnameAndStatus p:nth-child(2), span {
-    color: #757A7F;
+.boxProject p {
+  font-family: "Space Mono", serif;
+  color: #717171;
+  font-size: 12px;
 } */
