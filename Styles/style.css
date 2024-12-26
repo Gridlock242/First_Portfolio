@@ -145,13 +145,6 @@
   flex-direction: column;
 }
 
-#projects h2 {
-  display: flex;
-  font-family: "Mulish", serif;
-  color: #d4aefe;
-  font-weight: 800;
-}
-
 #projects ul {
   text-decoration: none;
   list-style: none;
@@ -163,42 +156,41 @@
   border-radius: 1cap;
   border: #757a7f 2px solid;
   margin: 20px 0px;
-  height: 9rem;
+  height: 10rem;
+  padding: 5px;
 }
 
 .titleAndParagraph h3 {
-  display: flex;
   font-family: "Mulish", serif;
   color: #d4aefe;
   font-weight: 800;
 }
 
-.titleAndParagraph p {
-  font-family: "Space Mono", serif;
-  color: #717171;
-  font-size: 12px;
-}
-
 .boxProject {
   margin: 10px 0px 10px 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "previewProject previewProject previewProject"
+    "titleAndParagraph titleAndParagraph seeMoreButton";
 }
 
 .boxProject a {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
+  grid-area: seeMoreButton;
+  margin-top: auto;
+  margin-left: auto;
   margin-right: 10px;
-  text-decoration: none;
+  padding: 1rem;
 }
 
-.boxProject a p {
-  background-color: #4cc29e;
-  padding: 7px;
-  border-radius: 1cap;
-  border: #757a7f 2px solid;
-  font-family: "Mulish", serif;
-  font-size: 12px;
+.titleAndParagraph {
+  grid-area: titleAndParagraph;
   color: white;
+}
+
+.preview {
+  grid-area: previewProject;
+  height: 5rem;
 }
 
 /* #projects {
