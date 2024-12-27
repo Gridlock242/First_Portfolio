@@ -143,6 +143,14 @@
   padding: 1rem 0rem;
   display: flex;
   flex-direction: column;
+  border-bottom: #717171 2px solid;
+}
+
+#projects h2 {
+  display: flex;
+  font-family: "Mulish", serif;
+  color: #d4aefe;
+  font-weight: 800;
 }
 
 #projects ul {
@@ -176,6 +184,7 @@
 }
 
 .boxProject a {
+  text-decoration: none;
   grid-area: seeMoreButton;
   margin-top: auto;
   margin-left: auto;
@@ -183,14 +192,102 @@
   padding: 1rem;
 }
 
+.boxProject a p {
+  text-decoration: none;
+  color: white;
+  background-color: #4cc29e;
+  padding: 7px;
+  border-radius: 1cap;
+  border: #757a7f 2px solid;
+  font-family: "Mulish", serif;
+  font-size: 12px;
+}
+
 .titleAndParagraph {
   grid-area: titleAndParagraph;
   color: white;
 }
 
+.titleAndParagraph p {
+  color: #717171;
+  font-family: "Space Mono", serif;
+  font-size: 13px;
+}
+
 .preview {
   grid-area: previewProject;
   height: 5rem;
+}
+
+/* ICONES */
+
+#softwareAndLanguages {
+  padding: 1rem 0rem;
+  border-bottom: #717171 2px solid;
+}
+
+#softwareAndLanguages h2 {
+  font-family: "Mulish", serif;
+  color: #d4aefe;
+  font-weight: 800;
+  margin-bottom: 17px;
+}
+
+.iconsContainer {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.iconsContainer li {
+  margin: 10px;
+}
+
+.iconsContainer p {
+  color: #717171;
+  font-family: "Space Mono", serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.iconsContainer li img:hover {
+  transform: translateY(-7px);
+  transition: all 0.3s ease 0s;
+}
+
+/* RETROUVEZ MOI ICI */
+
+#whereToFindMe h2 {
+  font-family: "Mulish", serif;
+  color: #d4aefe;
+  font-weight: 800;
+  margin-bottom: 17px;
+  padding: 1rem 0rem;
+}
+
+#whereToFindMe ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+}
+
+#whereToFindMe ul li {
+  margin: 15px;
+}
+
+#whereToFindMe ul li a img:hover {
+  transform: translateY(-7px);
+  transition: all 0.3s ease 0s;
+}
+
+#whereToFindMe ul li p {
+  color: #717171;
+  font-family: "Space Mono", serif;
+  font-size: 13px;
+  text-align: center;
 }
 
 /* #projects {
