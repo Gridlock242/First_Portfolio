@@ -34,7 +34,7 @@
 
 #boxFullnameAndStatus {
   border-bottom: #757a7f 2px solid;
-  padding-bottom: 1rem;
+  padding: 1rem 0rem 1rem 1rem;
 }
 
 #boxFullnameAndStatus p:first-child {
@@ -61,12 +61,17 @@
 .leftBoxAnchors {
   display: flex;
   height: 550px;
+  justify-content: center;
+}
+
+.leftBoxAnchors ul {
+  padding: 0;
 }
 
 .leftBoxAnchors ul li {
   list-style: none;
   background-color: #282828;
-  width: 11rem;
+  width: 13rem;
   padding: 10px 0px;
   margin: 5px;
   border: #757a7f 2px solid;
@@ -75,6 +80,8 @@
 
 .leftBoxAnchors ul li:hover {
   background-color: #3f3f3f;
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
 }
 
 .leftBoxAnchors ul li a {
@@ -84,6 +91,7 @@
   color: #d4aefe;
   font-family: "Mulish", serif;
   font-size: 13px;
+  padding: 2px 0px;
 }
 
 .leftBoxAnchors ul li a img {
@@ -92,8 +100,13 @@
 
 /* FOOTER DRAPEAUX */
 
-#changeLanguage {
-  display: flex;
+.ongoingProject {
+  color: #717171;
+  font-family: "Space Mono", serif;
+  font-size: 10px;
+  border-top: #717171 2px solid;
+  text-align: center;
+  padding: 7px 0px;
 }
 
 /* ALL CONTENT BOX */
@@ -289,59 +302,3 @@
   font-size: 13px;
   text-align: center;
 }
-
-/* #projects {
-  padding: 1rem 0rem;
-  display: flex;
-  flex-direction: column;
-}
-
-#projects ul {
-  text-decoration: none;
-  list-style: none;
-  padding-left: 0;
-}
-
-#projects ul li {
-  background-color: #282828;
-  border-radius: 1cap;
-  border: #757a7f 2px solid;
-  margin: 20px 0px;
-  height: 9rem;
-}
-
-#projects h2 {
-  display: flex;
-  font-family: "Mulish", serif;
-  color: #d4aefe;
-  font-weight: 800;
-}
-
-#projects a {
-  float: inline-end;
-  text-decoration: none;
-  color: white;
-  background-color: #4cc29e;
-  padding: 7px;
-  border-radius: 1cap;
-  border: #757a7f 2px solid;
-  font-family: "Mulish", serif;
-  font-size: 12px;
-  margin-right: 10px;
-}
-
-.boxProject {
-  margin: 10px 0px 10px 10px;
-}
-
-.boxProject h3 {
-  font-family: "Mulish", serif;
-  color: #d4aefe;
-  font-size: 1rem;
-}
-
-.boxProject p {
-  font-family: "Space Mono", serif;
-  color: #717171;
-  font-size: 12px;
-} */
