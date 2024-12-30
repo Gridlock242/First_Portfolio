@@ -85,35 +85,32 @@
   }
 
   .offScreenMenu ul {
-    display: grid;
-    padding: 0;
     justify-content: center;
-    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 5rem;
+    margin-right: 15px;
   }
 
   .offScreenMenu ul li {
     list-style: none;
     background-color: #282828;
-    width: 20rem;
-    padding: 10px 0px;
-    margin: 5px;
+    width: 22rem;
+    padding: 15px 0px;
+    margin: 5px 0px;
     border: #757a7f 2px solid;
     border-radius: 1cap;
   }
 
-  .offScreenMenu:hover {
-    background-color: #3f3f3f;
-    transform: scale(1.1);
-    transition: all 0.3s ease 0s;
-  }
 
   .offScreenMenu ul li a {
-    margin-left: 15px;
+    margin-left: 25px;
     display: flex;
     text-decoration: none;
     color: #d4aefe;
     font-family: "Mulish", serif;
-    font-size: 13px;
+    font-size: 18px;
     padding: 2px 0px;
   }
 
@@ -402,6 +399,20 @@
   transition: all 0.3s ease 0s;
 }
 
+@media (max-width: 600px) {
+
+  .fullIconBox {
+    display: flex;
+  }
+
+  .iconsContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+
 /* RETROUVEZ MOI ICI */
 
 #whereToFindMe h2 {
@@ -433,4 +444,16 @@
   font-family: "Space Mono", serif;
   font-size: 13px;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+
+  #whereToFindMe ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #whereToFindMe ul li a {
+    display: flex;
+  }
 }
