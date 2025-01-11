@@ -18,8 +18,15 @@
 
 /* CONTAINER DU CONTENU */
 
-#allContentBox {
-  display: flex;
+.allContentBox {
+  margin: 4rem 8rem;
+}
+
+@media (max-width: 600px) {
+  .allContentBox {
+    margin: 0rem 1rem;
+    padding: 0;
+  }
 }
 
 /* SIDEBAR PRÉSENTATION */
@@ -33,7 +40,7 @@
   background-color: #282828;
   justify-content: space-between;
   border-right: #757a7f 2px solid;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 15rem;
 }
@@ -223,20 +230,6 @@
   border-top: #717171 2px solid;
   text-align: center;
   padding: 7px 0px;
-}
-
-/* ALL CONTENT BOX */
-
-.allContentBox {
-  margin: 4rem 8rem;
-  padding-left: 14rem;
-}
-
-@media (max-width: 600px) {
-  .allContentBox {
-    margin: 0rem 1rem;
-    padding: 0;
-  }
 }
 
 /* PARAGRAPHE PRÉSENTATION */
@@ -451,9 +444,5 @@
   #whereToFindMe ul {
     display: flex;
     flex-wrap: wrap;
-  }
-
-  #whereToFindMe ul li a {
-    display: flex;
   }
 }
