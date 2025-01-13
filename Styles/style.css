@@ -110,7 +110,6 @@
     border-radius: 1cap;
   }
 
-
   .offScreenMenu ul li a {
     margin-left: 25px;
     display: flex;
@@ -294,13 +293,34 @@
   padding-left: 0;
 }
 
-#projects ul li {
+/* #projects ul li {
   background-color: #282828;
   border-radius: 1cap;
   border: #757a7f 2px solid;
   margin: 20px 0px;
   height: 10rem;
   padding: 5px;
+} */
+
+#projects ul li {
+  background-color: #282828;
+  border-radius: 1cap;
+  margin: 20px 0px;
+  height: 10rem;
+  padding: 5px;
+  position: relative;
+}
+
+#projects ul li::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: purple;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
 }
 
 .titleAndParagraph h3 {
@@ -393,7 +413,6 @@
 }
 
 @media (max-width: 600px) {
-
   .fullIconBox {
     display: flex;
   }
@@ -402,9 +421,7 @@
     display: flex;
     justify-content: center;
   }
-
 }
-
 
 /* RETROUVEZ MOI ICI */
 
@@ -440,7 +457,6 @@
 }
 
 @media (max-width: 600px) {
-
   #whereToFindMe ul {
     display: flex;
     flex-wrap: wrap;
