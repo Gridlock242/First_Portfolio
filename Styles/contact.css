@@ -220,3 +220,8 @@
 .leftBoxAnchors ul li a img {
   margin-right: 10px;
 }
+
+.leftBoxAnchors ul li:last-child {
+  background-color: #d4aefe;
+  border-color: #e3c9ff;
+}

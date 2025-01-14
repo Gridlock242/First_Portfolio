@@ -202,7 +202,7 @@
 
 .leftBoxAnchors ul li:hover {
   background-color: #3f3f3f;
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all 0.3s ease 0s;
 }
 
@@ -218,6 +218,11 @@
 
 .leftBoxAnchors ul li a img {
   margin-right: 10px;
+}
+
+.leftBoxAnchors ul li:first-child {
+  background-color: #d4aefe;
+  border-color: #e3c9ff;
 }
 
 /* FOOTER DRAPEAUX */
@@ -293,16 +298,16 @@
   padding-left: 0;
 }
 
-/* #projects ul li {
+#projects ul li {
   background-color: #282828;
   border-radius: 1cap;
   border: #757a7f 2px solid;
   margin: 20px 0px;
   height: 10rem;
   padding: 5px;
-} */
+}
 
-#projects ul li {
+/* #projects ul li {
   background-color: #282828;
   border-radius: 1cap;
   margin: 20px 0px;
@@ -316,12 +321,14 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: purple;
+  background-image: conic-gradient(red, blue);
   top: 50%;
   left: 50%;
   translate: -50% -50%;
   z-index: -1;
-}
+  padding: 10px;
+  border-radius: 10px;
+} */
 
 .titleAndParagraph h3 {
   font-family: "Mulish", serif;
