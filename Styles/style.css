@@ -229,11 +229,25 @@
 
 .ongoingProject {
   color: #717171;
-  font-family: "Space Mono", serif;
+  font-family: "Mulish", serif;
   font-size: 10px;
   border-top: #717171 2px solid;
-  text-align: center;
   padding: 7px 0px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ongoingProject a {
+  list-style: none;
+  text-decoration: none;
+  background-color: #4cc29e;
+  border-color: #757a7f;
+  padding: 10px;
+  color: white;
+  border-radius: 1cap;
+  border: #757a7f 2px solid;
 }
 
 /* PARAGRAPHE PRÉSENTATION */
