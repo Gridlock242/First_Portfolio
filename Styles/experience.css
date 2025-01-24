@@ -339,7 +339,7 @@
   position: relative;
   line-height: 1.4em;
   font-size: 1.03em;
-  padding: 50px;
+  padding: 25px;
   list-style: none;
   text-align: left;
 }
@@ -370,7 +370,7 @@
 }
 .timeline .event:after {
   box-shadow: 0 0 0 5px #d4aefe; 
-  left: -57.85px;
+  left: -33px;
   border-radius: 50px;
   background: #313534;
   content: "";
