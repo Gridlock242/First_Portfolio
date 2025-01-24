@@ -280,3 +280,54 @@
   border-bottom: #717171 2px solid;
 }
 
+/*Formation*/
+
+#formation {
+  padding: 2rem 0.7rem;
+}
+
+#formation h1 {
+  color: #8B8B8B;
+  font-family: "Mulish", serif;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+#formation h1 span {
+  color: #d4aefe;
+}
+
+#formation h2 {
+  color: #8B8B8B;
+  font-family: "Mulish", serif;
+  font-size: 13px;
+}
+
+#formation h3 {
+  color: #4cc29e;
+  font-family: "Mulish", serif;
+  font-weight: 800;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+#formation p {
+  color: #8B8B8B;
+  font-family: "Space Mono", serif;
+  font-size: 13px;
+}
+
+#formation p:nth-child(2) {
+  font-family: "Mulish", serif;
+}
+
+.formationDisplayFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+#formation:hover {
+  background-color: #282828;
+  transition: all 0.3s ease 0s;
+  border-radius: 0.5rem;
+}
