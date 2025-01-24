@@ -282,28 +282,28 @@
 
 /*Formation*/
 
-#formation {
+.event {
   padding: 2rem 0.7rem;
 }
 
-#formation h1 {
+.event h1 {
   color: #8B8B8B;
   font-family: "Mulish", serif;
   font-weight: 800;
   font-size: 1rem;
 }
 
-#formation h1 span {
+.event h1 span {
   color: #d4aefe;
 }
 
-#formation h2 {
+.event h2 {
   color: #8B8B8B;
   font-family: "Mulish", serif;
   font-size: 13px;
 }
 
-#formation h3 {
+.event h3 {
   color: #4cc29e;
   font-family: "Mulish", serif;
   font-weight: 800;
@@ -311,13 +311,13 @@
   padding-top: 1rem;
 }
 
-#formation p {
+.event p {
   color: #8B8B8B;
   font-family: "Space Mono", serif;
   font-size: 13px;
 }
 
-#formation p:nth-child(2) {
+.event p:nth-child(2) {
   font-family: "Mulish", serif;
 }
 
@@ -326,8 +326,54 @@
   justify-content: space-between;
 }
 
-#formation:hover {
+.event:hover {
   background-color: #282828;
   transition: all 0.3s ease 0s;
   border-radius: 0.5rem;
+}
+
+.timeline {
+  border-left: 4px solid #d4aefe;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+}
+
+.timeline .event {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.timeline .event:before {
+  color: rgba(255, 255, 255, 0.4);
+  content: attr(data-date);
+  font-size: 0.9em;
+  min-width: 120px;
+  font-family: "Mulish", serif;;
+}
+.timeline .event:after {
+  box-shadow: 0 0 0 5px #d4aefe; 
+  left: -57.85px;
+  border-radius: 50px;
+  background: #313534;
+  content: "";
+  height: 10px;
+  width: 10px;
 }
