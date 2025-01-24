@@ -250,3 +250,33 @@
   border-radius: 1cap;
   border: #757a7f 2px solid;
 }
+
+/* MES EXPÉRIENCES */ 
+
+#presentationBox {
+  padding: 1rem 0rem;
+}
+
+#presentationBox h1 { 
+  color: #d4aefe;
+  font-family: "Mulish", serif;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+#presentationBox p:nth-child(2) {
+  color: #4cc29e;
+  font-family: "Mulish", serif;
+  font-weight: 800;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+#presentationBox p:nth-child(3) {
+  color: #8B8B8B;
+  font-family: "Space Mono", serif;
+  font-size: 13px;
+  padding-bottom: 2rem;
+  border-bottom: #717171 2px solid;
+}
+
