@@ -226,7 +226,7 @@
   border-color: #e3c9ff;
 }
 
-/* FOOTER DRAPEAUX */
+/* FOOTER CV */
 
 .ongoingProject {
   color: #717171;
@@ -249,4 +249,19 @@
   color: white;
   border-radius: 1cap;
   border: #757a7f 2px solid;
+}
+
+/* Formulaire de contact */
+
+#allContentBox {
+  margin: 4rem 8rem;
+  min-width: none;
+}
+
+main {
+  width: 100vh;
+}
+
+.contact {
+  background-color: aquamarine;
 }

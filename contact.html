@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="Styles/contact.css" />
     <title>Yasmina Souleimanov</title>
   </head>
-  <body>
-    <html id="fullPageFlexBox">
+
+  <div id="fullPageFlexBox">
+    <body>
       <header>
         <div class="sideBarHeader">
           <div id="boxFullnameAndStatus">
@@ -20,34 +21,28 @@
             <ul>
               <li>
                 <a href="index.html">
-                  <img
-                    src="./Styles/Images/Home.png"
-                    alt="Icone Maison"
-                  />
+                  <img src="./Styles/Images/Home.png" alt="Icone Maison" />
                   <p>Home</p>
                 </a>
               </li>
               <li>
                 <a href="experience.html">
-                  <img
-                    src="./Styles/Images/star.png"
-                    alt="Icone Étoile"
-                  />
+                  <img src="./Styles/Images/star.png" alt="Icone Étoile" />
                   <p>Expérience</p>
                 </a>
               </li>
               <li>
                 <a href="projets.html">
-                  <img
-                    src="./Styles/Images/Rouage.png"
-                    alt="Icone Rouage"
-                  />
+                  <img src="./Styles/Images/Rouage.png" alt="Icone Rouage" />
                   <p>Projets</p>
                 </a>
               </li>
               <li>
                 <a href="contact.html">
-                  <img src="./Styles/Images/phoneNoir.png" alt="Icone Téléphone" />
+                  <img
+                    src="./Styles/Images/phoneNoir.png"
+                    alt="Icone Téléphone"
+                  />
                   <p style="color: rgb(0, 0, 0)">Contact</p>
                 </a>
               </li>
@@ -90,7 +85,10 @@
             </li>
             <li>
               <a href="/contact.html">
-                <img src="./Styles/Images/phoneNoir.png" alt="Icone Téléphone" />
+                <img
+                  src="./Styles/Images/phoneNoir.png"
+                  alt="Icone Téléphone"
+                />
                 <p>Contact</p>
               </a>
             </li>
@@ -105,8 +103,74 @@
           </div>
         </nav>
       </header>
-      <body>
-        <script src="./main.js"></script>
-      </body>
-    </html>
-      
+      <main>
+        <div id="allContentBox">
+          <section class="contact">
+            <h2>Contactez-moi !</h2>
+
+            <form action="#">
+              <div class="inputBox">
+                <div class="inputFieldField">
+                  <input
+                    type="text"
+                    placeholder="Nom"
+                    id="name"
+                    class="item"
+                    autocomplete="off"
+                  />
+                </div>
+
+                <div class="inputFieldField">
+                  <input
+                    type="text"
+                    placeholder="Adresse E-mail"
+                    id="email"
+                    class="item"
+                    autocomplete="off"
+                  />
+                </div>
+              </div>
+
+              <div class="inputBox">
+                <div class="inputFieldField">
+                  <input
+                    type="text"
+                    placeholder="Numéro de téléphone"
+                    id="phone"
+                    class="item"
+                    autocomplete="off"
+                  />
+                </div>
+
+                <div class="inputField">
+                  <input
+                    type="text"
+                    placeholder="Sujet"
+                    id="subject"
+                    class="item"
+                    autocomplete="off"
+                  />
+                </div>
+              </div>
+
+              <div class="textAreaField">
+                <textarea
+                  name=""
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Votre message"
+                  class="item"
+                  autocomplete="off"
+                ></textarea>
+
+                <button type="submit">Envoyer</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </main>
+      <script src="./main.js"></script>
+    </body>
+  </div>
+</html>
