@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="Styles/contact.css" />
     <title>Yasmina Souleimanov</title>
   </head>
-
-  <div id="fullPageFlexBox">
-    <body>
+  <body>
+    <div id="fullPageFlexBox">
       <header>
         <div class="sideBarHeader">
           <div id="boxFullnameAndStatus">
@@ -168,9 +167,9 @@
               </div>
             </form>
           </section>
-        </div>
-      </main>
+        </div> -->
+      <!-- <!-- </main>
       <script src="./main.js"></script>
-    </body>
-  </div>
-</html>
+    </div>
+  </body>
+</html> -->
